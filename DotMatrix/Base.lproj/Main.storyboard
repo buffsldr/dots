@@ -36,7 +36,7 @@
                                 </connections>
                             </containerView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="Wcq-zJ-tTF" secondAttribute="trailing" id="6b8-0I-gSk"/>
                             <constraint firstItem="xJo-pc-KkP" firstAttribute="leading" secondItem="aim-IV-asT" secondAttribute="leadingMargin" id="9SH-Mb-Eks"/>
