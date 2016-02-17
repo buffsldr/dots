@@ -10,11 +10,14 @@ import UIKit
 import CoreData
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, UIApplicationDelegateWithPSC {
 
     var window: UIWindow?
 
-
+    func providePersistentStoreCoordinator() -> NSPersistentStoreCoordinator {
+        return persistentStoreCoordinator
+    }
+    
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
         return true
@@ -93,7 +96,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     // MARK: - Core Data Saving support
 
-    func saveContext () {
+    func saveContext() {
         if managedObjectContext.hasChanges {
             do {
                 try managedObjectContext.save()
@@ -108,4 +111,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
 }
-

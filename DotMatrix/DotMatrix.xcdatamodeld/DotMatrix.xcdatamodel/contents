@@ -1,4 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="15D21" minimumToolsVersion="Automatic">
+    <entity name="Circle" representedClassName=".Circle" syncable="YES">
+        <attribute name="color" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="presentationOrder" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="CircleLayout" representedClassName=".CircleLayout" syncable="YES">
+        <attribute name="blue" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="columns" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="firstColor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fourthColor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="green" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="red" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="rows" optional="YES" attributeType="Integer 64" valueTransformerName="" defaultValueString="0" syncable="YES"/>
+        <attribute name="secondColor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="thirdColor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="yellow" optional="YES" attributeType="Boolean" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Circle" positionX="-63" positionY="-18" width="128" height="75"/>
+        <element name="CircleLayout" positionX="-54" positionY="0" width="128" height="195"/>
+    </elements>
 </model>

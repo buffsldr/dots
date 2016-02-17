@@ -15,6 +15,33 @@
 		4D12819A1C726BB1000A8B56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D1281981C726BB1000A8B56 /* LaunchScreen.storyboard */; };
 		4D1281A51C726BB1000A8B56 /* DotMatrixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1281A41C726BB1000A8B56 /* DotMatrixTests.swift */; };
 		4D1281B01C726BB1000A8B56 /* DotMatrixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1281AF1C726BB1000A8B56 /* DotMatrixUITests.swift */; };
+		4DC0E26C1C726E9B005E1C40 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC0E26B1C726E9B005E1C40 /* CircleView.swift */; };
+		4DC0E2771C72714E005E1C40 /* FlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC0E26E1C72714E005E1C40 /* FlowLayout.swift */; };
+		4DC0E2781C72714E005E1C40 /* FlagsForLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC0E26F1C72714E005E1C40 /* FlagsForLayout.swift */; };
+		4DC0E2791C72714E005E1C40 /* MVGridLayoutInvalidationContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC0E2701C72714E005E1C40 /* MVGridLayoutInvalidationContext.swift */; };
+		4DC0E27A1C72714E005E1C40 /* MVLayoutSectionMetrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC0E2711C72714E005E1C40 /* MVLayoutSectionMetrics.swift */; };
+		4DC0E27B1C72714E005E1C40 /* FlagsForMetrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC0E2721C72714E005E1C40 /* FlagsForMetrics.swift */; };
+		4DC0E27C1C72714E005E1C40 /* MVGridLayoutSectionInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC0E2731C72714E005E1C40 /* MVGridLayoutSectionInfo.swift */; };
+		4DC0E27D1C72714E005E1C40 /* MyAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC0E2741C72714E005E1C40 /* MyAttributes.swift */; };
+		4DC0E27E1C72714E005E1C40 /* MVGridLayoutItemInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC0E2751C72714E005E1C40 /* MVGridLayoutItemInfo.swift */; };
+		4DC0E27F1C72714E005E1C40 /* CircleCollectionViewLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC0E2761C72714E005E1C40 /* CircleCollectionViewLayoutAttributes.swift */; };
+		4DC0E2841C727297005E1C40 /* CircleCollectionViewControllerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC0E2831C727297005E1C40 /* CircleCollectionViewControllerDataSource.swift */; };
+		4DC0E2861C7272D0005E1C40 /* MVLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC0E2851C7272D0005E1C40 /* MVLoading.swift */; };
+		4DC0E28B1C7274D5005E1C40 /* AAPLStateMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC0E2891C7274D5005E1C40 /* AAPLStateMachine.m */; };
+		4DC0E28C1C7274D5005E1C40 /* VSAAPLLoadableContentStateMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC0E28A1C7274D5005E1C40 /* VSAAPLLoadableContentStateMachine.swift */; };
+		4DC0E28E1C727514005E1C40 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC0E28D1C727514005E1C40 /* Constants.swift */; };
+		4DC0E2901C727541005E1C40 /* FetchRequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC0E28F1C727541005E1C40 /* FetchRequestFactory.swift */; };
+		4DC0E2921C72757C005E1C40 /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC0E2911C72757C005E1C40 /* Context.swift */; };
+		4DC0E2941C727606005E1C40 /* ManagedObjectChanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC0E2931C727606005E1C40 /* ManagedObjectChanges.swift */; };
+		4DC0E2971C727645005E1C40 /* Circle+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC0E2951C727645005E1C40 /* Circle+CoreDataProperties.swift */; };
+		4DC0E2981C727645005E1C40 /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC0E2961C727645005E1C40 /* Circle.swift */; };
+		4DC0E29C1C727735005E1C40 /* CircleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC0E29B1C727735005E1C40 /* CircleCell.swift */; };
+		4DC0E29E1C7284E1005E1C40 /* OptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC0E29D1C7284E1005E1C40 /* OptionsViewController.swift */; };
+		4DC0E2A01C72884C005E1C40 /* CircleCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC0E29F1C72884C005E1C40 /* CircleCollectionViewController.swift */; };
+		4DC0E2AF1C73904D005E1C40 /* FrameFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC0E2AE1C73904D005E1C40 /* FrameFunction.swift */; };
+		4DC0E2B11C73B742005E1C40 /* ColorInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC0E2B01C73B742005E1C40 /* ColorInfo.swift */; };
+		4DC0E2B41C73DE5A005E1C40 /* CircleLayout+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC0E2B21C73DE5A005E1C40 /* CircleLayout+CoreDataProperties.swift */; };
+		4DC0E2B51C73DE5A005E1C40 /* CircleLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC0E2B31C73DE5A005E1C40 /* CircleLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +76,35 @@
 		4D1281AB1C726BB1000A8B56 /* DotMatrixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DotMatrixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D1281AF1C726BB1000A8B56 /* DotMatrixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotMatrixUITests.swift; sourceTree = "<group>"; };
 		4D1281B11C726BB1000A8B56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DC0E26B1C726E9B005E1C40 /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		4DC0E26E1C72714E005E1C40 /* FlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = FlowLayout.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		4DC0E26F1C72714E005E1C40 /* FlagsForLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlagsForLayout.swift; sourceTree = "<group>"; };
+		4DC0E2701C72714E005E1C40 /* MVGridLayoutInvalidationContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MVGridLayoutInvalidationContext.swift; sourceTree = "<group>"; };
+		4DC0E2711C72714E005E1C40 /* MVLayoutSectionMetrics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = MVLayoutSectionMetrics.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		4DC0E2721C72714E005E1C40 /* FlagsForMetrics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlagsForMetrics.swift; sourceTree = "<group>"; };
+		4DC0E2731C72714E005E1C40 /* MVGridLayoutSectionInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MVGridLayoutSectionInfo.swift; sourceTree = "<group>"; };
+		4DC0E2741C72714E005E1C40 /* MyAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyAttributes.swift; sourceTree = "<group>"; };
+		4DC0E2751C72714E005E1C40 /* MVGridLayoutItemInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = MVGridLayoutItemInfo.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		4DC0E2761C72714E005E1C40 /* CircleCollectionViewLayoutAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = CircleCollectionViewLayoutAttributes.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		4DC0E2831C727297005E1C40 /* CircleCollectionViewControllerDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleCollectionViewControllerDataSource.swift; sourceTree = "<group>"; };
+		4DC0E2851C7272D0005E1C40 /* MVLoading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MVLoading.swift; sourceTree = "<group>"; };
+		4DC0E2871C7274D4005E1C40 /* DotMatrix-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DotMatrix-Bridging-Header.h"; sourceTree = "<group>"; };
+		4DC0E2881C7274D5005E1C40 /* AAPLStateMachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPLStateMachine.h; sourceTree = "<group>"; };
+		4DC0E2891C7274D5005E1C40 /* AAPLStateMachine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPLStateMachine.m; sourceTree = "<group>"; };
+		4DC0E28A1C7274D5005E1C40 /* VSAAPLLoadableContentStateMachine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VSAAPLLoadableContentStateMachine.swift; sourceTree = "<group>"; };
+		4DC0E28D1C727514005E1C40 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = Constants.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		4DC0E28F1C727541005E1C40 /* FetchRequestFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchRequestFactory.swift; sourceTree = "<group>"; };
+		4DC0E2911C72757C005E1C40 /* Context.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Context.swift; sourceTree = "<group>"; };
+		4DC0E2931C727606005E1C40 /* ManagedObjectChanges.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManagedObjectChanges.swift; sourceTree = "<group>"; };
+		4DC0E2951C727645005E1C40 /* Circle+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Circle+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4DC0E2961C727645005E1C40 /* Circle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
+		4DC0E29B1C727735005E1C40 /* CircleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleCell.swift; sourceTree = "<group>"; };
+		4DC0E29D1C7284E1005E1C40 /* OptionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionsViewController.swift; sourceTree = "<group>"; };
+		4DC0E29F1C72884C005E1C40 /* CircleCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleCollectionViewController.swift; sourceTree = "<group>"; };
+		4DC0E2AE1C73904D005E1C40 /* FrameFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrameFunction.swift; sourceTree = "<group>"; };
+		4DC0E2B01C73B742005E1C40 /* ColorInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorInfo.swift; sourceTree = "<group>"; };
+		4DC0E2B21C73DE5A005E1C40 /* CircleLayout+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CircleLayout+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4DC0E2B31C73DE5A005E1C40 /* CircleLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +135,14 @@
 		4D1281801C726BB1000A8B56 = {
 			isa = PBXGroup;
 			children = (
+				4DC0E2B21C73DE5A005E1C40 /* CircleLayout+CoreDataProperties.swift */,
+				4DC0E2B31C73DE5A005E1C40 /* CircleLayout.swift */,
+				4DC0E2B01C73B742005E1C40 /* ColorInfo.swift */,
+				4DC0E2AE1C73904D005E1C40 /* FrameFunction.swift */,
+				4DC0E29D1C7284E1005E1C40 /* OptionsViewController.swift */,
+				4DC0E29B1C727735005E1C40 /* CircleCell.swift */,
+				4DC0E2951C727645005E1C40 /* Circle+CoreDataProperties.swift */,
+				4DC0E2961C727645005E1C40 /* Circle.swift */,
 				4D12818B1C726BB1000A8B56 /* DotMatrix */,
 				4D1281A31C726BB1000A8B56 /* DotMatrixTests */,
 				4D1281AE1C726BB1000A8B56 /* DotMatrixUITests */,
@@ -99,6 +163,7 @@
 		4D12818B1C726BB1000A8B56 /* DotMatrix */ = {
 			isa = PBXGroup;
 			children = (
+				4DC0E29F1C72884C005E1C40 /* CircleCollectionViewController.swift */,
 				4D12818C1C726BB1000A8B56 /* AppDelegate.swift */,
 				4D12818E1C726BB1000A8B56 /* ViewController.swift */,
 				4D1281901C726BB1000A8B56 /* Main.storyboard */,
@@ -106,6 +171,9 @@
 				4D1281981C726BB1000A8B56 /* LaunchScreen.storyboard */,
 				4D12819B1C726BB1000A8B56 /* Info.plist */,
 				4D1281931C726BB1000A8B56 /* DotMatrix.xcdatamodeld */,
+				4DC0E2871C7274D4005E1C40 /* DotMatrix-Bridging-Header.h */,
+				4DC0E2801C727153005E1C40 /* Custom Collection View Code */,
+				4DC0E26D1C726EA0005E1C40 /* CustomView */,
 			);
 			path = DotMatrix;
 			sourceTree = "<group>";
@@ -128,6 +196,39 @@
 			path = DotMatrixUITests;
 			sourceTree = "<group>";
 		};
+		4DC0E26D1C726EA0005E1C40 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				4DC0E26B1C726E9B005E1C40 /* CircleView.swift */,
+			);
+			name = CustomView;
+			sourceTree = "<group>";
+		};
+		4DC0E2801C727153005E1C40 /* Custom Collection View Code */ = {
+			isa = PBXGroup;
+			children = (
+				4DC0E2931C727606005E1C40 /* ManagedObjectChanges.swift */,
+				4DC0E2911C72757C005E1C40 /* Context.swift */,
+				4DC0E28F1C727541005E1C40 /* FetchRequestFactory.swift */,
+				4DC0E28D1C727514005E1C40 /* Constants.swift */,
+				4DC0E2881C7274D5005E1C40 /* AAPLStateMachine.h */,
+				4DC0E2891C7274D5005E1C40 /* AAPLStateMachine.m */,
+				4DC0E28A1C7274D5005E1C40 /* VSAAPLLoadableContentStateMachine.swift */,
+				4DC0E2851C7272D0005E1C40 /* MVLoading.swift */,
+				4DC0E2831C727297005E1C40 /* CircleCollectionViewControllerDataSource.swift */,
+				4DC0E26E1C72714E005E1C40 /* FlowLayout.swift */,
+				4DC0E26F1C72714E005E1C40 /* FlagsForLayout.swift */,
+				4DC0E2701C72714E005E1C40 /* MVGridLayoutInvalidationContext.swift */,
+				4DC0E2711C72714E005E1C40 /* MVLayoutSectionMetrics.swift */,
+				4DC0E2721C72714E005E1C40 /* FlagsForMetrics.swift */,
+				4DC0E2731C72714E005E1C40 /* MVGridLayoutSectionInfo.swift */,
+				4DC0E2741C72714E005E1C40 /* MyAttributes.swift */,
+				4DC0E2751C72714E005E1C40 /* MVGridLayoutItemInfo.swift */,
+				4DC0E2761C72714E005E1C40 /* CircleCollectionViewLayoutAttributes.swift */,
+			);
+			name = "Custom Collection View Code";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,6 +239,7 @@
 				4D1281851C726BB1000A8B56 /* Sources */,
 				4D1281861C726BB1000A8B56 /* Frameworks */,
 				4D1281871C726BB1000A8B56 /* Resources */,
+				SWIFCLEANCUSTOMRUNSCRIPT /* Swift-Clean Run Script */,
 			);
 			buildRules = (
 			);
@@ -190,7 +292,7 @@
 		4D1281811C726BB1000A8B56 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0720;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = vaderapps.com;
 				TargetAttributes = {
@@ -254,14 +356,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		SWIFCLEANCUSTOMRUNSCRIPT /* Swift-Clean Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Swift-Clean Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "if [[ -z ${SKIP_SWIFTCLEAN} || ${SKIP_SWIFTCLEAN} != 1 ]]; then\nif [[ -d \"${LOCAL_APPS_DIR}/Swift-Clean.app\" ]]; then \n\"${LOCAL_APPS_DIR}\"/Swift-Clean.app/Contents/Resources/SwiftClean.app/Contents/MacOS/SwiftClean \"${SRCROOT}\"?@autoFix \nelse\necho \"warning: You have to install and set up Swift-Clean to use its features!\" \nfi\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4D1281851C726BB1000A8B56 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4D12818F1C726BB1000A8B56 /* ViewController.swift in Sources */,
+				4DC0E28E1C727514005E1C40 /* Constants.swift in Sources */,
+				4DC0E2791C72714E005E1C40 /* MVGridLayoutInvalidationContext.swift in Sources */,
+				4DC0E2921C72757C005E1C40 /* Context.swift in Sources */,
+				4DC0E2941C727606005E1C40 /* ManagedObjectChanges.swift in Sources */,
+				4DC0E2A01C72884C005E1C40 /* CircleCollectionViewController.swift in Sources */,
+				4DC0E27B1C72714E005E1C40 /* FlagsForMetrics.swift in Sources */,
+				4DC0E2781C72714E005E1C40 /* FlagsForLayout.swift in Sources */,
+				4DC0E26C1C726E9B005E1C40 /* CircleView.swift in Sources */,
+				4DC0E2901C727541005E1C40 /* FetchRequestFactory.swift in Sources */,
+				4DC0E2841C727297005E1C40 /* CircleCollectionViewControllerDataSource.swift in Sources */,
+				4DC0E27F1C72714E005E1C40 /* CircleCollectionViewLayoutAttributes.swift in Sources */,
+				4DC0E27A1C72714E005E1C40 /* MVLayoutSectionMetrics.swift in Sources */,
+				4DC0E27C1C72714E005E1C40 /* MVGridLayoutSectionInfo.swift in Sources */,
+				4DC0E2B11C73B742005E1C40 /* ColorInfo.swift in Sources */,
+				4DC0E2771C72714E005E1C40 /* FlowLayout.swift in Sources */,
+				4DC0E2861C7272D0005E1C40 /* MVLoading.swift in Sources */,
+				4DC0E2B41C73DE5A005E1C40 /* CircleLayout+CoreDataProperties.swift in Sources */,
+				4DC0E28C1C7274D5005E1C40 /* VSAAPLLoadableContentStateMachine.swift in Sources */,
+				4DC0E2981C727645005E1C40 /* Circle.swift in Sources */,
 				4D12818D1C726BB1000A8B56 /* AppDelegate.swift in Sources */,
+				4DC0E27D1C72714E005E1C40 /* MyAttributes.swift in Sources */,
+				4DC0E29E1C7284E1005E1C40 /* OptionsViewController.swift in Sources */,
 				4D1281951C726BB1000A8B56 /* DotMatrix.xcdatamodeld in Sources */,
+				4DC0E2971C727645005E1C40 /* Circle+CoreDataProperties.swift in Sources */,
+				4DC0E29C1C727735005E1C40 /* CircleCell.swift in Sources */,
+				4DC0E27E1C72714E005E1C40 /* MVGridLayoutItemInfo.swift in Sources */,
+				4DC0E2B51C73DE5A005E1C40 /* CircleLayout.swift in Sources */,
+				4DC0E28B1C7274D5005E1C40 /* AAPLStateMachine.m in Sources */,
+				4DC0E2AF1C73904D005E1C40 /* FrameFunction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,10 +549,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = DotMatrix/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = vaderapps.com.DotMatrix;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DotMatrix/DotMatrix-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -414,10 +563,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = DotMatrix/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = vaderapps.com.DotMatrix;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DotMatrix/DotMatrix-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -488,6 +639,7 @@
 				4D1281B61C726BB1000A8B56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D1281B71C726BB1000A8B56 /* Build configuration list for PBXNativeTarget "DotMatrixTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +648,7 @@
 				4D1281B91C726BB1000A8B56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D1281BA1C726BB1000A8B56 /* Build configuration list for PBXNativeTarget "DotMatrixUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +657,7 @@
 				4D1281BC1C726BB1000A8B56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
